@@ -690,8 +690,7 @@ void deletewordcurrent(hashtable *&tudien, word *&tuhientai) {
 }
 
 int main() {
-	system("color 3f");
-	SetConsoleTitle("Dictionary 2.5 by Hoang Khoi Nguyen");
+
 	word *tuhientai = NULL;
 	hashtable *tudien = new hashtable[26];
 	for(int i = 0; i < 26; i++) {
